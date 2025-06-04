@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@media (min-width: 1024px) {
+  .first-fold {
+    flex-direction: row;
+  }
+
+  section {
+    scroll-margin-top: 6.3125rem;
+  }
+
+  .header-content {
+    max-width: 72.5rem;
+  }
+
+  .nav-container {
+    max-width: 47rem;
+    gap: 3.125rem;
+  }
+
+  .header-btn {
+    background-color: #7447e1;
+    padding: 0.8125rem 1.875rem;
+    border: none;
+    width: fit-content;
+  }
+
+  .header-btn p {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .material-symbols-outlined.rocket.header-rocket {
+    display: block;
+  }
+
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .line-div {
+    margin-top: 5rem;
+  }
+
+  .section-pad {
+    padding-top: 5rem;
+  }
+
+  .first-sec-gap {
+    gap: 0.625rem;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .buttons-wrapper {
+    width: 100%;
+    max-width: 30.3125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .first-desktop-gap {
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 42.25rem;
+  }
+
+  .first-desktop-gap p {
+    text-align: left;
+  }
+
+  /* h1 {
+    color: #2d2d2d !important;
+    font-size: 4.1875rem !important;
+    text-align: left !important;
+  } */
+
+  .h1-p {
+    text-align: left;
+  }
+
+  p {
+    font-size: 1.3125rem;
+    line-height: 150%; /* 1.9688rem */
+  }
+
+  .cta-p {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .cards-wrapper {
+    max-width: 73.125rem;
+  }
+
+  .services-cards {
+    flex-basis: 23.125rem;
+  }
+
+  .services-cards p {
+    text-align: center;
+  }
+
+  .section-2-gap {
+    gap: 3rem;
+  }
+
+  .advantages-cards {
+    flex-basis: 23.125rem;
+  }
+
+  .advantages-cards p {
+    font-size: 1.125rem;
+    line-height: 130%;
+  }
+
+  .fourth-sec-img {
+    max-width: 35.625rem;
+    padding: 4.125rem 0.5625rem;
+  }
+
+  .fourt-sec-gap {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .fourt-sec-copy {
+    align-items: start;
+  }
+
+  .section-5-gap {
+    gap: 3rem;
+  }
+
+  .section-6-gap {
+    gap: 3rem;
+  }
+
+  .section-7-gap {
+    gap: 3rem;
+  }
+
+  .ceos-wrapper {
+    flex-direction: row;
+  }
+
+  .form-wrapper {
+    max-width: 72.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-animation {
+    width: 100%;
+    max-width: 25rem;
+  }
+
+  .section-8-gap {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.75rem;
+    padding: 3.75rem 3.75rem;
+    background-color: white;
+    border: 0.0625rem solid rgb(229, 244, 242);
+  }
+
+  .section-8-gap .h2-container {
+    text-align: left;
+  }
+
+  .formsec-container {
+    margin: 0 auto;
+    max-width: 73.125rem;
+  }
+
+  .header-mobile-button {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    overflow: visible;
+    flex-direction: row;
+  }
+}
+
+.nav-link {
+  transition: color 200ms;
+}

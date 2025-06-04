@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Klik é especializada em desenvolvimento de sites modernos, rápidos e responsivos. Crie sua presença online com design profissional e tecnologia de ponta."
+    />
+
+    <title>Klik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Preload CSS -->
+    <link
+      rel="preload"
+      fetchpriority="high"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet';"
+    />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet';"
+    />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icons=rocket_launch+desktop_windows+language+build+counter_1+counter_2+counter_3+counter_4+counter_5+counter_6+arrow_forward+add_to_queue+animation+translate+person+call+check&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet';"
+    />
+    <link
+      rel="preload"
+      fetchpriority="low"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet';"
+    />
+
+    <!-- noscript block -->
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icons=rocket_launch+desktop_windows+language+build+counter_1+counter_2+counter_3+counter_4+counter_5+counter_6+arrow_forward+add_to_queue+animation+translate+person+call"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.min.css"
+      />
+    </noscript>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="responsivity.css"
+      media="(min-width: 1024px)"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="src/assets/fav-icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="src/assets/fav-icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="src/assets/fav-icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="src/assets/fav-icon/site.webmanifest" />
+
+    <!-- Critical CSS inline -->
+    <style>
+      h1 {
+        font-family: "Poppins", sans-serif;
+        color: #2d2d2d;
+        font-size: 36px;
+        text-align: center;
+      }
+      @media (min-width: 1024px) {
+        h1 {
+          font-size: 67px;
+          text-align: left;
+          letter-spacing: -2.5px;
+        }
+      }
+    </style>
+
+    <script
+      async
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <a href="#first-sec" class="logo-wrapper">
+          <img src="src/assets/images/logo.svg" alt="logo da empresa" />
+        </a>
+        <div class="nav-container">
+          <nav class="nav-bar">
+            <a href="#services" class="nav-link">Serviços</a>
+            <a href="#how-it-works" class="nav-link">Como funciona</a>
+            <a href="#plans" class="nav-link">Planos</a>
+            <a href="#extras" class="nav-link">Extras</a>
+          </nav>
+          <a
+            href="https://wa.me/558597154741?text=Oi%21%20Quero%20tirar%20meu%20site%20do%20papel%20com%20voc%C3%AAs.%20Como%20come%C3%A7amos%3F"
+            class="header-btn"
+            target="_blank"
+          >
+            <span class="material-symbols-outlined rocket header-rocket">
+              rocket_launch
+            </span>
+            <p>Quero meu site</p>
+          </a>
+          <button class="header-mobile-button" type="button">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section id="first-sec" class="section-pad pad-bottom">
+      <div class="first-fold">
+        <div class="first-fold-text">
+          <h1>Sua presença online começa aqui.</h1>
+          <p class="h1-p">
+            A gente cuida de tudo: design, domínio, hospedagem, manutenção e
+            suporte. Você só se preocupa em crescer.
+          </p>
+          <div class="buttons-wrapper">
+            <a
+              href="https://wa.me/558597154741?text=Oi%21%20Quero%20tirar%20meu%20site%20do%20papel%20com%20voc%C3%AAs.%20Como%20come%C3%A7amos%3F"
+              class="cta-btn"
+              target="_blank"
+            >
+              <span class="material-symbols-outlined rocket">
+                rocket_launch
+              </span>
+              <p class="cta-p">Quero meu site</p>
+            </a>
+            <a class="hiw-button" href="#how-it-works">Como funciona?</a>
+          </div>
+        </div>
+        <div class="first-animation-wrapper">
+          <dotlottie-player
+            src="src/assets/images/banner-animation.lottie"
+            autoplay
+            loop
+            style="width: 100%; height: 100%"
+            loading="lazy"
+          ></dotlottie-player>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section-pad">
+      <div class="container">
+        <div class="section-2-gap">
+          <div class="h2-container">
+            <h2>Tudo que você precisa num só lugar</h2>
+            <p>
+              Da criação ao suporte, oferecemos soluções completas para quem
+              quer marcar presença online com qualidade.
+            </p>
+          </div>
+          <div class="cards-wrapper">
+            <div class="services-cards">
+              <span class="material-symbols-outlined computer">
+                desktop_windows
+              </span>
+              <div class="service-info">
+                <h3>Criação de sites e landing pages</h3>
+                <p>
+                  Sites modernos, responsivos e com a sua cara. Perfeitos para
+                  apresentar seu negócio e ter presença online.
+                </p>
+              </div>
+            </div>
+            <div class="services-cards">
+              <span class="material-symbols-outlined internet"> language </span>
+              <div class="service-info">
+                <h3>Registro de domínio e hospedagem</h3>
+                <p>
+                  Seu site com endereço próprio, hospedagem segura, rápida e
+                  estável.
+                </p>
+              </div>
+            </div>
+            <div class="services-cards">
+              <span class="material-symbols-outlined tool"> build </span>
+              <div class="service-info">
+                <h3>Manutenção e suporte</h3>
+                <p>
+                  Atualizações, melhorias e problemas técnicos? Pode contar com
+                  a gente! Resolvemos tudo para você.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works" class="section-pad">
+      <div class="container">
+        <div class="section-3-gap">
+          <div class="h2-container">
+            <h2>Criar seu site com a gente é simples assim:</h2>
+            <p>
+              Sem complicações nem termos técnicos. A gente cuida de tudo
+              enquanto você acompanha de perto cada etapa.
+            </p>
+          </div>
+          <div class="advantages-wrapper">
+            <div class="advantages-cards">
+              <div class="number-icon-wrapper">
+                <span class="material-symbols-outlined number-icons"
+                  >counter_1</span
+                >
+              </div>
+              <h3 class="advantages-h3">Briefing</h3>
+              <p>
+                Vamos entender seu negócio, objetivos e estilo preferido. Tudo
+                para criar um site que seja a sua cara.
+              </p>
+            </div>
+            <div class="advantages-cards">
+              <div class="number-icon-wrapper">
+                <span class="material-symbols-outlined number-icons"
+                  >counter_2</span
+                >
+              </div>
+              <h3 class="advantages-h3">Layout</h3>
+              <p>
+                Design personalizado com cores, fontes e estrutura pensadas para
+                encantar seu público.
+              </p>
+            </div>
+            <div class="advantages-cards">
+              <div class="number-icon-wrapper">
+                <span class="material-symbols-outlined number-icons"
+                  >counter_3</span
+                >
+              </div>
+              <h3 class="advantages-h3">Desenvolvimento</h3>
+              <p>
+                Transformamos o layout aprovado por você em um site totalmente
+                funcional, responsivo e otimizado.
+              </p>
+            </div>
+            <div class="advantages-cards">
+              <div class="number-icon-wrapper">
+                <span class="material-symbols-outlined number-icons"
+                  >counter_4</span
+                >
+              </div>
+              <h3 class="advantages-h3">Hospedagem</h3>
+              <p>
+                Configuramos servidores rápidos e protegidos, para que seu site
+                rode sem travamentos ou sustos.
+              </p>
+            </div>
+            <div class="advantages-cards">
+              <div class="number-icon-wrapper">
+                <span class="material-symbols-outlined number-icons"
+                  >counter_5</span
+                >
+              </div>
+              <h3 class="advantages-h3">Publicação</h3>
+              <p>
+                Seu site vai ao ar com tudo que ele precisa: domínio
+                personalizado, SSL e integrações.
+              </p>
+            </div>
+            <div class="advantages-cards">
+              <div class="number-icon-wrapper">
+                <span class="material-symbols-outlined number-icons"
+                  >counter_6</span
+                >
+              </div>
+              <h3 class="advantages-h3">Suporte e manutenção</h3>
+              <p>
+                Atualizações, backups e ajustes finos para que seu site continue
+                impecável. Dúvidas? Nosso time resolve!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-pad">
+      <div class="container">
+        <div class="fourt-sec-gap">
+          <div class="fourth-sec-img">
+            <dotlottie-player
+              src="src/assets/images/cta-animation.lottie"
+              autoplay
+              loop
+              style="width: 100%; height: 100%"
+              loading="lazy"
+            ></dotlottie-player>
+          </div>
+          <div class="fourt-sec-copy">
+            <h2>Seu negócio não sai do chão?</h2>
+            <p>Vamos fazer ele <strong>decolar na web!</strong></p>
+            <a
+              class="fourth-sec-cta"
+              href="https://wa.me/558597154741?text=Oi%21%20Quero%20tirar%20meu%20site%20do%20papel%20com%20voc%C3%AAs.%20Como%20come%C3%A7amos%3F"
+              target="_blank"
+              >Quero meu site
+              <span class="material-symbols-outlined arrow-forward">
+                arrow_forward
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="line-div"></div>
+    </section>
+    <section id="plans" class="section-pad">
+      <div class="container">
+        <div class="section-5-gap">
+          <div class="h2-container">
+            <h2>Encontre o plano perfeito para você</h2>
+            <p>
+              Seu site, do seu jeito. Você escolhe o que precisa e a gente faz
+              acontecer.
+            </p>
+          </div>
+          <div class="plans-wrapper">
+            <div class="plans-cards">
+              <div class="plan-price">
+                <p>Básico</p>
+                <h3>R$ 1.500</h3>
+                <p>
+                  Para pequenos negócios que precisam de uma Landing Page
+                  profissional.
+                </p>
+              </div>
+              <div class="plan-infos">
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>1 Landing Page: </strong>Design responsivo, único e
+                    personalizado.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Integrações simples: </strong>Formulário de contato,
+                    links para redes sociais, localização via Google Maps.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>2 ajustes após a entrega: </strong>Mudanças de
+                    textos, imagens, cores.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Suporte via e-mail: </strong>Resposta em até 48h.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p><strong>Prazo: </strong>Até 10 dias úteis.</p>
+                </div>
+              </div>
+              <a
+                class="plans-card-cta"
+                href="https://wa.me/558597154741?text=Ol%C3%A1%21%20Gostei%20do%20Plano%20B%C3%A1sico%20e%20quero%20saber%20os%20pr%C3%B3ximos%20passos%20para%20come%C3%A7ar."
+                target="_blank"
+                >Escolher plano</a
+              >
+            </div>
+            <div class="plans-cards">
+              <div class="plan-price">
+                <p>Intermediário</p>
+                <h3>R$ 2.800</h3>
+                <p>
+                  Para empresas que querem ir além do básico, com desempenho
+                  otimizado e mais possibilidades de integração.
+                </p>
+              </div>
+              <div class="plan-infos">
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>1 Landing Page + 1 Página adicional: </strong>Design
+                    responsivo, único e personalizado.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Integrações simples: </strong>Formulário de contato,
+                    links para redes sociais, localização via Google Maps.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Integrações Intermediárias: </strong>
+                    Redirecionamento de mensagens para WhatsApp.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Otimização de desempenho: </strong>Site rápido
+                    (PageSpeed 90+).
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>5 ajustes após a entrega: </strong>Mudanças de
+                    textos, imagens, e cores.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Suporte via WhatsApp: </strong>Resposta em até 24hs.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p><strong>Prazo: </strong>Até 12 dias úteis.</p>
+                </div>
+              </div>
+              <a
+                class="plans-card-cta"
+                href="https://wa.me/558597154741?text=Ol%C3%A1%21%20Gostei%20do%20Plano%20Intermedi%C3%A1rio%20e%20quero%20saber%20os%20pr%C3%B3ximos%20passos%20para%20come%C3%A7ar."
+                target="_blank"
+                >Escolher Plano</a
+              >
+            </div>
+            <div class="plans-cards profissional">
+              <div class="plan-price">
+                <p>Profissional</p>
+                <h3>R$ 6.500</h3>
+                <p>
+                  Para empresas que precisam de um site robusto, integrações
+                  avançadas e suporte de alta prioridade.
+                </p>
+              </div>
+              <div class="plan-infos">
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>1 Landing Page + 3 Páginas adicionais: </strong
+                    >Design responsivo, único e personalizado.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Integrações simples: </strong>Formulário de contato,
+                    links para redes sociais, localização via Google Maps.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Integrações Intermediárias: </strong
+                    >Redirecionamento de mensagens para WhatsApp.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Integrações Avançadas: </strong>APIs de pagamento
+                    (ex.: Stripe, Mercado Pago) e APIs de CRM.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Otimização de desempenho: </strong>Site rápido
+                    (PageSpeed 90+).
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong>Ajustes ilimitados: </strong>Mudanças de textos,
+                    imagens, cores ilimitadas durante 30 dias após a entrega.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p>
+                    <strong
+                      >Suporte prioritário via WhatsApp ou telefone: </strong
+                    >Resposta em até 6hs.
+                  </p>
+                </div>
+                <div class="plan-products">
+                  <div class="check-wrapper">
+                    <span class="material-symbols-outlined check-icons">
+                      check
+                    </span>
+                  </div>
+                  <p><strong>Prazo: </strong>Até 15 dias úteis.</p>
+                </div>
+              </div>
+              <a
+                class="plans-card-cta"
+                href="https://wa.me/558597154741?text=Ol%C3%A1%21%20Gostei%20do%20Plano%20Profissional%20e%20quero%20saber%20os%20pr%C3%B3ximos%20passos%20para%20come%C3%A7ar."
+                target="_blank"
+              >
+                Escolher plano
+                <span
+                  class="material-symbols-outlined arrow-forward plans-arrow"
+                >
+                  arrow_forward
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="extras" class="section-pad">
+      <div class="container">
+        <div class="section-6-gap">
+          <div class="h2-container">
+            <h2>Extras que fazem a diferença</h2>
+            <p>
+              Amplie a navegação, impressione com animações ou fale com o mundo.
+              É só escolher o que combina com seu projeto.
+            </p>
+          </div>
+          <div class="additives-wrapper">
+            <div class="additives-card">
+              <span class="material-symbols-outlined additives-icons">
+                add_to_queue
+              </span>
+              <div class="additives-infos">
+                <h3>Adição de<br />página</h3>
+                <h3>R$ 500</h3>
+                <p>
+                  Precisa de mais espaço para mostrar seus serviços? A gente
+                  cria páginas com o mesmo capricho da página principal.
+                </p>
+              </div>
+            </div>
+            <div class="additives-card">
+              <span class="material-symbols-outlined additives-icons">
+                animation
+              </span>
+              <div class="additives-infos">
+                <h3>Animações <br />avançadas</h3>
+                <h3>R$ 300</h3>
+                <p>
+                  Destaque seções, menus e interações com efeitos visuais,
+                  deixando seu site mais moderno, dinâmico e envolvente.
+                </p>
+              </div>
+            </div>
+            <div class="additives-card">
+              <span class="material-symbols-outlined additives-icons">
+                translate
+              </span>
+              <div class="additives-infos">
+                <h3>Versão em<br />Inglês</h3>
+                <h3>R$ 500</h3>
+                <p>
+                  Fale com o mundo: adaptamos seu site para o inglês com
+                  tradução profissional. Ideal para alcançar um público global.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line-div"></div>
+    </section>
+    <section class="section-pad pad-bottom">
+      <div class="container">
+        <div class="section-7-gap">
+          <div class="h2-container">
+            <h2>Somos o time que vai tirar seu site do papel</h2>
+            <p>
+              Unimos design e desenvolvimento para entregar sites que funcionam
+              — e encantam.
+            </p>
+          </div>
+          <div class="ceos-wrapper">
+            <div class="ceos-card">
+              <div class="pfp-wrapper">
+                <img
+                  loading="lazy"
+                  src="src/assets/images/helena.webp"
+                  alt=""
+                />
+              </div>
+              <div class="ceos-infos">
+                <h3>Helena Cunha</h3>
+                <p>Web Designer</p>
+              </div>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/helenaoliveirac/"
+                  target="_blank"
+                  class="linkedin-links"
+                >
+                  <div class="ceo-social-media-icon">
+                    <img
+                      loading="lazy"
+                      src="src/assets/icons/linkedin-icon.svg"
+                      alt=""
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="ceos-card">
+              <div class="pfp-wrapper">
+                <img loading="lazy" src="src/assets/images/vitor.webp" alt="" />
+              </div>
+              <div class="ceos-infos">
+                <h3>Vitor Hugo Lopes</h3>
+                <p>Desenvolvedor</p>
+              </div>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/vitorhlps/"
+                  target="_blank"
+                  class="linkedin-links"
+                >
+                  <img
+                    loading="lazy"
+                    src="src/assets/icons/linkedin-icon.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-pad pad-bottom">
+      <div class="formsec-container">
+        <div class="section-8-gap">
+          <div class="form-h2-wrapper">
+            <div class="h2-container">
+              <h2>Vamos dar vida ao seu site?</h2>
+              <p>Preencha rapidinho e a gente te chama no WhatsApp!</p>
+            </div>
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/mldnrbrp"
+              method="POST"
+            >
+              <div class="input-wrapper">
+                <label class="label-border" for="name">
+                  <span class="material-symbols-outlined form-icons">
+                    person
+                  </span>
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nome"
+                  required
+                />
+              </div>
+              <div class="input-wrapper">
+                <label class="label-border" for="phone">
+                  <span class="material-symbols-outlined form-icons">
+                    call
+                  </span>
+                </label>
+                <input type="tel" name="phone" id="phone" required />
+              </div>
+              <button class="form-button" type="submit">Enviar</button>
+            </form>
+          </div>
+          <div class="form-animation">
+            <dotlottie-player
+              src="src/assets/images/rocket-animation.lottie"
+              autoplay
+              loop
+              style="width: 100%; height: 100%"
+              loading="lazy"
+            ></dotlottie-player>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="footer-logo">
+        <p>Website desenvolvido por</p>
+        <div class="footer-logo-wrapper">
+          <img src="src/assets/images/footer-logo.svg" alt="logo da empresa" />
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
+      <script src="app.js"></script>
+    </footer>
+  </body>
+</html>
