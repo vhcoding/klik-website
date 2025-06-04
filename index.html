@@ -11,7 +11,6 @@
     <title>Klik</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Preload CSS -->
     <link
       rel="preload"
       fetchpriority="high"
@@ -41,7 +40,6 @@
       onload="this.onload=null;this.rel='stylesheet';"
     />
 
-    <!-- noscript block -->
     <noscript>
       <link
         rel="stylesheet"
@@ -65,7 +63,6 @@
       />
     </noscript>
 
-    <!-- stylesheets -->
     <link rel="stylesheet" href="src/styles/styles.css" />
     <link
       rel="stylesheet"
@@ -91,7 +88,6 @@
     />
     <link rel="manifest" href="src/assets/fav-icon/site.webmanifest" />
 
-    <!-- Critical CSS inline -->
     <style>
       h1 {
         font-family: "Poppins", sans-serif;
@@ -122,10 +118,17 @@
         </a>
         <div class="nav-container">
           <nav class="nav-bar">
-            <a href="#services" class="nav-link">Serviços</a>
-            <a href="#how-it-works" class="nav-link">Como funciona</a>
-            <a href="#plans" class="nav-link">Planos</a>
-            <a href="#extras" class="nav-link">Extras</a>
+            <a href="#services" class="nav-link" data-i18n="nav-services"
+              >Serviços</a
+            >
+            <a
+              href="#how-it-works"
+              class="nav-link"
+              data-i18n="nav-how-it-works"
+              >Como funciona</a
+            >
+            <a href="#plans" class="nav-link" data-i18n="nav-plans">Planos</a>
+            <a href="#extras" class="nav-link" data-i18n="nav-extras">Extras</a>
           </nav>
           <a
             href="https://wa.me/558597154741?text=Oi%21%20Quero%20tirar%20meu%20site%20do%20papel%20com%20voc%C3%AAs.%20Como%20come%C3%A7amos%3F"
@@ -135,7 +138,7 @@
             <span class="material-symbols-outlined rocket header-rocket">
               rocket_launch
             </span>
-            <p>Quero meu site</p>
+            <p data-i18n="cta-button">Quero meu site</p>
           </a>
           <button class="header-mobile-button" type="button">
             <span></span><span></span><span></span>
@@ -146,8 +149,8 @@
     <section id="first-sec" class="section-pad pad-bottom">
       <div class="first-fold">
         <div class="first-fold-text">
-          <h1>Sua presença online começa aqui.</h1>
-          <p class="h1-p">
+          <h1 data-i18n="main-title">Sua presença online começa aqui.</h1>
+          <p class="h1-p" data-i18n="main-subtitle">
             A gente cuida de tudo: design, domínio, hospedagem, manutenção e
             suporte. Você só se preocupa em crescer.
           </p>
@@ -160,9 +163,11 @@
               <span class="material-symbols-outlined rocket">
                 rocket_launch
               </span>
-              <p class="cta-p">Quero meu site</p>
+              <p class="cta-p" data-i18n="cta-button">Quero meu site</p>
             </a>
-            <a class="hiw-button" href="#how-it-works">Como funciona?</a>
+            <a class="hiw-button" href="#how-it-works" data-i18n="how-it-works"
+              >Como funciona?</a
+            >
           </div>
         </div>
         <div class="first-animation-wrapper">
@@ -181,8 +186,10 @@
       <div class="container">
         <div class="section-2-gap">
           <div class="h2-container">
-            <h2>Tudo que você precisa num só lugar</h2>
-            <p>
+            <h2 data-i18n="section2-title">
+              Tudo que você precisa num só lugar
+            </h2>
+            <p data-i18n="section2-sub">
               Da criação ao suporte, oferecemos soluções completas para quem
               quer marcar presença online com qualidade.
             </p>
@@ -193,8 +200,10 @@
                 desktop_windows
               </span>
               <div class="service-info">
-                <h3>Criação de sites e landing pages</h3>
-                <p>
+                <h3 data-i18n="s2-card1-title">
+                  Criação de sites e landing pages
+                </h3>
+                <p data-i18n="s2-card1-text">
                   Sites modernos, responsivos e com a sua cara. Perfeitos para
                   apresentar seu negócio e ter presença online.
                 </p>
@@ -203,8 +212,10 @@
             <div class="services-cards">
               <span class="material-symbols-outlined internet"> language </span>
               <div class="service-info">
-                <h3>Registro de domínio e hospedagem</h3>
-                <p>
+                <h3 data-i18n="s2-card2-title">
+                  Registro de domínio e hospedagem
+                </h3>
+                <p data-i18n="s2-card2-text">
                   Seu site com endereço próprio, hospedagem segura, rápida e
                   estável.
                 </p>
@@ -213,8 +224,8 @@
             <div class="services-cards">
               <span class="material-symbols-outlined tool"> build </span>
               <div class="service-info">
-                <h3>Manutenção e suporte</h3>
-                <p>
+                <h3 data-i18n="s2-card3-title">Manutenção e suporte</h3>
+                <p data-i18n="s2-card3-text">
                   Atualizações, melhorias e problemas técnicos? Pode contar com
                   a gente! Resolvemos tudo para você.
                 </p>
@@ -228,8 +239,10 @@
       <div class="container">
         <div class="section-3-gap">
           <div class="h2-container">
-            <h2>Criar seu site com a gente é simples assim:</h2>
-            <p>
+            <h2 data-i18n="section3-title">
+              Criar seu site com a gente é simples assim:
+            </h2>
+            <p data-i18n="section3-sub">
               Sem complicações nem termos técnicos. A gente cuida de tudo
               enquanto você acompanha de perto cada etapa.
             </p>
@@ -241,8 +254,8 @@
                   >counter_1</span
                 >
               </div>
-              <h3 class="advantages-h3">Briefing</h3>
-              <p>
+              <h3 class="advantages-h3" data-i18n="s3-adv1-title">Briefing</h3>
+              <p data-i18n="s3-adv1-text">
                 Vamos entender seu negócio, objetivos e estilo preferido. Tudo
                 para criar um site que seja a sua cara.
               </p>
@@ -253,8 +266,8 @@
                   >counter_2</span
                 >
               </div>
-              <h3 class="advantages-h3">Layout</h3>
-              <p>
+              <h3 class="advantages-h3" data-i18n="s3-adv2-title">Layout</h3>
+              <p data-i18n="s3-adv2-text">
                 Design personalizado com cores, fontes e estrutura pensadas para
                 encantar seu público.
               </p>
@@ -265,8 +278,10 @@
                   >counter_3</span
                 >
               </div>
-              <h3 class="advantages-h3">Desenvolvimento</h3>
-              <p>
+              <h3 class="advantages-h3" data-i18n="s3-adv3-title">
+                Desenvolvimento
+              </h3>
+              <p data-i18n="s3-adv3-text">
                 Transformamos o layout aprovado por você em um site totalmente
                 funcional, responsivo e otimizado.
               </p>
@@ -277,8 +292,10 @@
                   >counter_4</span
                 >
               </div>
-              <h3 class="advantages-h3">Hospedagem</h3>
-              <p>
+              <h3 class="advantages-h3" data-i18n="s3-adv4-title">
+                Hospedagem
+              </h3>
+              <p data-i18n="s3-adv4-text">
                 Configuramos servidores rápidos e protegidos, para que seu site
                 rode sem travamentos ou sustos.
               </p>
@@ -289,8 +306,10 @@
                   >counter_5</span
                 >
               </div>
-              <h3 class="advantages-h3">Publicação</h3>
-              <p>
+              <h3 class="advantages-h3" data-i18n="s3-adv5-title">
+                Publicação
+              </h3>
+              <p data-i18n="s3-adv5-text">
                 Seu site vai ao ar com tudo que ele precisa: domínio
                 personalizado, SSL e integrações.
               </p>
@@ -301,8 +320,10 @@
                   >counter_6</span
                 >
               </div>
-              <h3 class="advantages-h3">Suporte e manutenção</h3>
-              <p>
+              <h3 class="advantages-h3" data-i18n="s3-adv6-title">
+                Suporte e manutenção
+              </h3>
+              <p data-i18n="s3-adv6-text">
                 Atualizações, backups e ajustes finos para que seu site continue
                 impecável. Dúvidas? Nosso time resolve!
               </p>
@@ -324,12 +345,15 @@
             ></dotlottie-player>
           </div>
           <div class="fourt-sec-copy">
-            <h2>Seu negócio não sai do chão?</h2>
-            <p>Vamos fazer ele <strong>decolar na web!</strong></p>
+            <h2 data-i18n="s4-title">Seu negócio não sai do chão?</h2>
+            <p data-i18n="s4-sub">
+              Vamos fazer ele <strong>decolar na web!</strong>
+            </p>
             <a
               class="fourth-sec-cta"
               href="https://wa.me/558597154741?text=Oi%21%20Quero%20tirar%20meu%20site%20do%20papel%20com%20voc%C3%AAs.%20Como%20come%C3%A7amos%3F"
               target="_blank"
+              data-i18n="s4-cta-button"
               >Quero meu site
               <span class="material-symbols-outlined arrow-forward">
                 arrow_forward
@@ -344,8 +368,8 @@
       <div class="container">
         <div class="section-5-gap">
           <div class="h2-container">
-            <h2>Encontre o plano perfeito para você</h2>
-            <p>
+            <h2 data-i18n="s5-title">Encontre o plano perfeito para você</h2>
+            <p data-i18n="s5-sub">
               Seu site, do seu jeito. Você escolhe o que precisa e a gente faz
               acontecer.
             </p>
@@ -353,9 +377,9 @@
           <div class="plans-wrapper">
             <div class="plans-cards">
               <div class="plan-price">
-                <p>Básico</p>
+                <p data-i18n="s5-plan1-name">Básico</p>
                 <h3>R$ 1.500</h3>
-                <p>
+                <p data-i18n="s5-plan1-desc">
                   Para pequenos negócios que precisam de uma Landing Page
                   profissional.
                 </p>
@@ -367,7 +391,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan1-feat1">
                     <strong>1 Landing Page: </strong>Design responsivo, único e
                     personalizado.
                   </p>
@@ -378,7 +402,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan1-feat2">
                     <strong>Integrações simples: </strong>Formulário de contato,
                     links para redes sociais, localização via Google Maps.
                   </p>
@@ -389,7 +413,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan1-feat3">
                     <strong>2 ajustes após a entrega: </strong>Mudanças de
                     textos, imagens, cores.
                   </p>
@@ -400,7 +424,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan1-feat4">
                     <strong>Suporte via e-mail: </strong>Resposta em até 48h.
                   </p>
                 </div>
@@ -410,21 +434,24 @@
                       check
                     </span>
                   </div>
-                  <p><strong>Prazo: </strong>Até 10 dias úteis.</p>
+                  <p data-i18n="s5-plan1-feat5">
+                    <strong>Prazo: </strong>Até 10 dias úteis.
+                  </p>
                 </div>
               </div>
               <a
                 class="plans-card-cta"
                 href="https://wa.me/558597154741?text=Ol%C3%A1%21%20Gostei%20do%20Plano%20B%C3%A1sico%20e%20quero%20saber%20os%20pr%C3%B3ximos%20passos%20para%20come%C3%A7ar."
                 target="_blank"
+                data-i18n="s5-plan-cta"
                 >Escolher plano</a
               >
             </div>
             <div class="plans-cards">
               <div class="plan-price">
-                <p>Intermediário</p>
+                <p data-i18n="s5-plan2-name">Intermediário</p>
                 <h3>R$ 2.800</h3>
-                <p>
+                <p data-i18n="s5-plan2-desc">
                   Para empresas que querem ir além do básico, com desempenho
                   otimizado e mais possibilidades de integração.
                 </p>
@@ -436,7 +463,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan2-feat1">
                     <strong>1 Landing Page + 1 Página adicional: </strong>Design
                     responsivo, único e personalizado.
                   </p>
@@ -447,7 +474,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan1-feat2">
                     <strong>Integrações simples: </strong>Formulário de contato,
                     links para redes sociais, localização via Google Maps.
                   </p>
@@ -458,7 +485,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan2-feat3">
                     <strong>Integrações Intermediárias: </strong>
                     Redirecionamento de mensagens para WhatsApp.
                   </p>
@@ -469,7 +496,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan2-feat4">
                     <strong>Otimização de desempenho: </strong>Site rápido
                     (PageSpeed 90+).
                   </p>
@@ -480,7 +507,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan2-feat5">
                     <strong>5 ajustes após a entrega: </strong>Mudanças de
                     textos, imagens, e cores.
                   </p>
@@ -491,7 +518,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan2-feat6">
                     <strong>Suporte via WhatsApp: </strong>Resposta em até 24hs.
                   </p>
                 </div>
@@ -501,21 +528,24 @@
                       check
                     </span>
                   </div>
-                  <p><strong>Prazo: </strong>Até 12 dias úteis.</p>
+                  <p data-i18n="s5-plan2-feat7">
+                    <strong>Prazo: </strong>Até 12 dias úteis.
+                  </p>
                 </div>
               </div>
               <a
                 class="plans-card-cta"
                 href="https://wa.me/558597154741?text=Ol%C3%A1%21%20Gostei%20do%20Plano%20Intermedi%C3%A1rio%20e%20quero%20saber%20os%20pr%C3%B3ximos%20passos%20para%20come%C3%A7ar."
                 target="_blank"
+                data-i18n="s5-plan-cta"
                 >Escolher Plano</a
               >
             </div>
             <div class="plans-cards profissional">
               <div class="plan-price">
-                <p>Profissional</p>
+                <p data-i18n="s5-plan3-name">Profissional</p>
                 <h3>R$ 6.500</h3>
-                <p>
+                <p data-i18n="s5-plan3-desc">
                   Para empresas que precisam de um site robusto, integrações
                   avançadas e suporte de alta prioridade.
                 </p>
@@ -527,7 +557,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan3-feat1">
                     <strong>1 Landing Page + 3 Páginas adicionais: </strong
                     >Design responsivo, único e personalizado.
                   </p>
@@ -538,7 +568,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan1-feat2">
                     <strong>Integrações simples: </strong>Formulário de contato,
                     links para redes sociais, localização via Google Maps.
                   </p>
@@ -549,7 +579,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan2-feat3">
                     <strong>Integrações Intermediárias: </strong
                     >Redirecionamento de mensagens para WhatsApp.
                   </p>
@@ -560,7 +590,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan3-feat4">
                     <strong>Integrações Avançadas: </strong>APIs de pagamento
                     (ex.: Stripe, Mercado Pago) e APIs de CRM.
                   </p>
@@ -571,7 +601,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan2-feat4">
                     <strong>Otimização de desempenho: </strong>Site rápido
                     (PageSpeed 90+).
                   </p>
@@ -582,7 +612,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan3-feat6">
                     <strong>Ajustes ilimitados: </strong>Mudanças de textos,
                     imagens, cores ilimitadas durante 30 dias após a entrega.
                   </p>
@@ -593,7 +623,7 @@
                       check
                     </span>
                   </div>
-                  <p>
+                  <p data-i18n="s5-plan3-feat7">
                     <strong
                       >Suporte prioritário via WhatsApp ou telefone: </strong
                     >Resposta em até 6hs.
@@ -605,13 +635,16 @@
                       check
                     </span>
                   </div>
-                  <p><strong>Prazo: </strong>Até 15 dias úteis.</p>
+                  <p data-i18n="s5-plan3-feat8">
+                    <strong>Prazo: </strong>Até 15 dias úteis.
+                  </p>
                 </div>
               </div>
               <a
                 class="plans-card-cta"
                 href="https://wa.me/558597154741?text=Ol%C3%A1%21%20Gostei%20do%20Plano%20Profissional%20e%20quero%20saber%20os%20pr%C3%B3ximos%20passos%20para%20come%C3%A7ar."
                 target="_blank"
+                data-i18n="s5-plan-cta"
               >
                 Escolher plano
                 <span
@@ -629,8 +662,8 @@
       <div class="container">
         <div class="section-6-gap">
           <div class="h2-container">
-            <h2>Extras que fazem a diferença</h2>
-            <p>
+            <h2 data-i18n="s6-title">Extras que fazem a diferença</h2>
+            <p data-i18n="s6-sub">
               Amplie a navegação, impressione com animações ou fale com o mundo.
               É só escolher o que combina com seu projeto.
             </p>
@@ -641,9 +674,9 @@
                 add_to_queue
               </span>
               <div class="additives-infos">
-                <h3>Adição de<br />página</h3>
+                <h3 data-i18n="s6-extra1-title">Adição de<br />página</h3>
                 <h3>R$ 500</h3>
-                <p>
+                <p data-i18n="s6-extra1-desc">
                   Precisa de mais espaço para mostrar seus serviços? A gente
                   cria páginas com o mesmo capricho da página principal.
                 </p>
@@ -654,9 +687,9 @@
                 animation
               </span>
               <div class="additives-infos">
-                <h3>Animações <br />avançadas</h3>
+                <h3 data-i18n="s6-extra2-title">Animações <br />avançadas</h3>
                 <h3>R$ 300</h3>
-                <p>
+                <p data-i18n="s6-extra2-desc">
                   Destaque seções, menus e interações com efeitos visuais,
                   deixando seu site mais moderno, dinâmico e envolvente.
                 </p>
@@ -667,9 +700,9 @@
                 translate
               </span>
               <div class="additives-infos">
-                <h3>Versão em<br />Inglês</h3>
+                <h3 data-i18n="s6-extra3-title">Versão em<br />Inglês</h3>
                 <h3>R$ 500</h3>
-                <p>
+                <p data-i18n="s6-extra3-desc">
                   Fale com o mundo: adaptamos seu site para o inglês com
                   tradução profissional. Ideal para alcançar um público global.
                 </p>
@@ -684,8 +717,10 @@
       <div class="container">
         <div class="section-7-gap">
           <div class="h2-container">
-            <h2>Somos o time que vai tirar seu site do papel</h2>
-            <p>
+            <h2 data-i18n="s7-title">
+              Somos o time que vai tirar seu site do papel
+            </h2>
+            <p data-i18n="s7-sub">
               Unimos design e desenvolvimento para entregar sites que funcionam
               — e encantam.
             </p>
@@ -700,8 +735,8 @@
                 />
               </div>
               <div class="ceos-infos">
-                <h3>Helena Cunha</h3>
-                <p>Web Designer</p>
+                <h3 data-i18n="s7-team1-name">Helena Cunha</h3>
+                <p data-i18n="s7-team1-role">Web Designer</p>
               </div>
               <div class="social-links">
                 <a
@@ -725,8 +760,8 @@
                 <img loading="lazy" src="src/assets/images/vitor.webp" alt="" />
               </div>
               <div class="ceos-infos">
-                <h3>Vitor Hugo Lopes</h3>
-                <p>Desenvolvedor</p>
+                <h3 data-i18n="s7-team2-name">Vitor Hugo Lopes</h3>
+                <p data-i18n="s7-team2-role">Desenvolvedor</p>
               </div>
               <div class="social-links">
                 <a
@@ -751,8 +786,10 @@
         <div class="section-8-gap">
           <div class="form-h2-wrapper">
             <div class="h2-container">
-              <h2>Vamos dar vida ao seu site?</h2>
-              <p>Preencha rapidinho e a gente te chama no WhatsApp!</p>
+              <h2 data-i18n="form-title">Vamos dar vida ao seu site?</h2>
+              <p data-i18n="form-subtitle">
+                Preencha rapidinho e a gente te chama no WhatsApp!
+              </p>
             </div>
             <form
               id="contact-form"
@@ -770,6 +807,7 @@
                   name="name"
                   id="name"
                   placeholder="Nome"
+                  data-i18n="form-placeholder-name"
                   required
                 />
               </div>
@@ -781,7 +819,9 @@
                 </label>
                 <input type="tel" name="phone" id="phone" required />
               </div>
-              <button class="form-button" type="submit">Enviar</button>
+              <button class="form-button" type="submit" data-i18n="form-button">
+                Enviar
+              </button>
             </form>
           </div>
           <div class="form-animation">
@@ -798,7 +838,7 @@
     </section>
     <footer id="footer">
       <div class="footer-logo">
-        <p>Website desenvolvido por</p>
+        <p data-i18n="footer-credit">Website desenvolvido por</p>
         <div class="footer-logo-wrapper">
           <img src="src/assets/images/footer-logo.svg" alt="logo da empresa" />
         </div>
