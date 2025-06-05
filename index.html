@@ -7,7 +7,8 @@
       name="description"
       content="A Klik é especializada em desenvolvimento de sites modernos, rápidos e responsivos. Crie sua presença online com design profissional e tecnologia de ponta."
     />
-
+    <link fetchpriority="high" rel="preload" as="script" href="https://unpkg.com/i18next@25.2.1/dist/umd/i18next.min.js">
+    <link fetchpriority="high" rel="preload" as="script" href="src/js/translation.js">
     <title>Klik</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -110,10 +111,10 @@
       type="module"
     ></script>
     <script src="https://unpkg.com/i18next@25.2.1/dist/umd/i18next.min.js"></script>
-    <script src="src/js/translation.js"></script>
+    <script defer src="src/js/translation.js"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header fade-start">
       <div class="header-content">
         <a href="#first-sec" class="logo-wrapper">
           <img src="src/assets/images/logo.svg" alt="logo da empresa" />
@@ -148,7 +149,7 @@
         </div>
       </div>
     </header>
-    <section id="first-sec" class="section-pad pad-bottom">
+    <section id="first-sec" class="section-pad pad-bottom invisible">
       <div class="first-fold">
         <div class="first-fold-text">
           <h1 data-i18n="main-title">Sua presença online começa aqui.</h1>

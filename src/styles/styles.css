@@ -6,6 +6,8 @@
   margin: 0 auto;
 }
 
+
+
 /* HEADER BTN */
 
 .header-mobile-button {
@@ -78,15 +80,6 @@
   padding: 0;
 }
 
-/* h1 {
-  font-family: "Poppins", sans-serif;
-  color: #2d2d2d;
-  text-align: center;
-  line-height: 130%;
-  font-weight: 700;
-  font-size: 2.375rem;
-  letter-spacing: -0.1563rem;
-} */
 
 section {
   opacity: 0;
@@ -100,10 +93,10 @@ section.fade-in {
   transform: translateY(0);
 }
 
-section:first-of-type {
+/* section:first-of-type {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 body {
   font-family: "Poppins", sans-serif;

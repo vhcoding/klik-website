@@ -20,7 +20,7 @@ const handleHeaderMobile = () => {
 handleHeaderMobile();
 
 window.addEventListener("load", function () {
-  const sections = document.querySelectorAll("section:not(:first-of-type)");
+  const sections = document.querySelectorAll("section");
 
   function isInViewport(element) {
     const rect = element.getBoundingClientRect();
