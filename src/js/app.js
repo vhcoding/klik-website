@@ -21,6 +21,16 @@ handleHeaderMobile();
 
 window.addEventListener("load", function () {
   const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-link");
+  const btnFades = document.querySelectorAll(".btn-fade");
+
+  navLinks.forEach((link) => {
+    link.classList.add("fade-in");
+  });
+
+  btnFades.forEach((el) => {
+    el.classList.add("fade-in");
+  });
 
   function isInViewport(element) {
     const rect = element.getBoundingClientRect();
@@ -38,7 +48,7 @@ window.addEventListener("load", function () {
     });
   }
 
-  addEventListener("scroll", checkSections);
+  window.addEventListener("scroll", checkSections);
   checkSections();
 });
 

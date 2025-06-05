@@ -6,8 +6,6 @@
   margin: 0 auto;
 }
 
-
-
 /* HEADER BTN */
 
 .header-mobile-button {
@@ -79,7 +77,6 @@
   margin: 0;
   padding: 0;
 }
-
 
 section {
   opacity: 0;
@@ -286,6 +283,32 @@ html {
   font-weight: 700;
 }
 
+.nav-link {
+  color: #7447e1;
+  font-weight: 700;
+  opacity: 0;
+  transform: translateY(-1.25rem);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.nav-link.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.4s;
+}
+
+.btn-fade {
+  opacity: 0;
+  transform: translateY(-1.25rem);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.btn-fade.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.1s;
+}
+
 .nav-link:hover {
   text-decoration: underline;
 }
@@ -412,8 +435,6 @@ h3 {
 .service-info h3 {
   text-align: center;
 }
-
-
 
 .section-2-gap {
   width: 100%;
@@ -604,8 +625,7 @@ arrow-wrapper {
   font-family: "Mulish", sans-serif;
   font-size: 1rem;
   line-height: 130%;
-  color: #2D2D2D;
-
+  color: #2d2d2d;
 }
 
 .plans-cards.profissional {
