@@ -342,7 +342,7 @@ p {
 .first-fold {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 2.5rem;
   width: 100%;
@@ -419,6 +419,8 @@ h3 {
 .service-info h3 {
   text-align: center;
 }
+
+
 
 .section-2-gap {
   width: 100%;

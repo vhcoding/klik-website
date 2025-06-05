@@ -1,12 +1,23 @@
 @charset "UTF-8";
 
 @media (min-width: 1024px) {
-  .first-fold {
-    flex-direction: row;
-  }
-
   section {
     scroll-margin-top: 6.3125rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 150%; /* 1.9688rem */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .first-fold {
+    flex-direction: row;
   }
 
   .header-content {
@@ -41,11 +52,6 @@
     gap: 0.5rem;
   }
 
-  .container {
-    width: 100%;
-    max-width: 80rem;
-    margin: 0 auto;
-  }
 
   .line-div {
     margin-top: 5rem;
@@ -86,19 +92,8 @@
     text-align: left;
   }
 
-  /* h1 {
-    color: #2d2d2d !important;
-    font-size: 4.1875rem !important;
-    text-align: left !important;
-  } */
-
   .h1-p {
     text-align: left;
-  }
-
-  p {
-    font-size: 1.3125rem;
-    line-height: 150%; /* 1.9688rem */
   }
 
   .cta-p {
@@ -116,6 +111,7 @@
 
   .services-cards p {
     text-align: center;
+    font-size: 1.125rem;
   }
 
   .section-2-gap {
@@ -133,7 +129,6 @@
 
   .fourth-sec-img {
     max-width: 35.625rem;
-    padding: 4.125rem 0.5625rem;
   }
 
   .fourt-sec-gap {
