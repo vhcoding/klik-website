@@ -336,6 +336,11 @@ html {
 
 .first-animation-wrapper {
   max-width: 34.625rem;
+  width: 100%;
+}
+
+dotlottie-player {
+  pointer-events: none;
 }
 
 p {
@@ -371,6 +376,10 @@ p {
   flex-direction: column;
   gap: 2.5rem;
   max-width: 42.25rem;
+}
+
+.first-fold-text h1 {
+  line-height: 130%;
 }
 
 .cta-btn {
@@ -537,6 +546,7 @@ h3 {
   font-weight: 600;
   line-height: 130%;
   letter-spacing: -1%;
+  text-align: center;
 }
 
 .h2-container {
@@ -545,9 +555,17 @@ h3 {
 
 /* SECTION 4 */
 
+.fourth-sec-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .fourth-sec-img {
   width: 100%;
-  max-width: 19.5625rem;
+  max-width: 238px;
 }
 
 .fourth-sec-cta {

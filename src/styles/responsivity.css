@@ -9,7 +9,7 @@
     font-size: 1.125rem;
     line-height: 150%; /* 1.9688rem */
   }
-  
+
   .container {
     width: 100%;
     max-width: 80rem;
@@ -51,7 +51,6 @@
     justify-content: space-between;
     gap: 0.5rem;
   }
-
 
   .line-div {
     margin-top: 5rem;
@@ -128,11 +127,13 @@
   }
 
   .fourth-sec-img {
-    max-width: 35.625rem;
+    width: 100%;
+    max-width: 438px;
   }
 
-  .fourt-sec-gap {
+  .fourth-sec-gap {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     gap: 0.5rem;
     align-items: center;

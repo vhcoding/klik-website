@@ -48,7 +48,7 @@ const i18nextResources = {
       "s3-adv6-text":
         "Updates, backups, and fine-tuning to keep your site flawless. Questions? Our team solves them!",
       "s4-title": "Is your business not taking off?",
-      "s4-sub": "Let's make it <strong>take off on the web!</strong>",
+      "s4-sub": "Let's make it <strong>skyrocket on the web!</strong>",
       "s4-cta-button": "I want my website",
       "s5-title": "Find the perfect plan for you",
       "s5-sub":
