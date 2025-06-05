@@ -33,7 +33,7 @@
     background-color: #7447e1;
     padding: 0.8125rem 1.875rem;
     border: none;
-    width: fit-content;
+    max-height: 3.125rem;
   }
 
   .header-btn p {
