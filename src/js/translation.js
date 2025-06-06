@@ -4,7 +4,7 @@ const i18nextResources = {
       "main-title": "Your online presence starts here.",
       "main-subtitle":
         "We handle everything: design, domain, hosting, maintenance, and support. You just focus on growing.",
-      "cta-button": "I want my website",
+      "cta-button": "Get Started",
       "how-it-works": "How it works?",
       "section2-title": "Everything you need in one place",
       "section2-sub":
