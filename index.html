@@ -58,7 +58,6 @@
         href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.min.css"
       />
     </noscript>
-
     <link rel="stylesheet" href="src/styles/styles.css" />
     <link
       rel="stylesheet"
@@ -83,7 +82,6 @@
       href="src/assets/fav-icon/favicon-16x16.png"
     />
     <link rel="manifest" href="src/assets/fav-icon/site.webmanifest" />
-
     <style>
       h1 {
         font-family: "Poppins", sans-serif;
@@ -99,12 +97,6 @@
         }
       }
     </style>
-
-    <script
-      async
-      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
-      type="module"
-    ></script>
     <script src="https://unpkg.com/i18next@25.2.1/dist/umd/i18next.min.js"></script>
     <script defer src="src/js/translation.js"></script>
   </head>
@@ -787,9 +779,9 @@
       <div class="formsec-container">
         <div class="section-8-gap">
           <div class="form-h2-wrapper">
-            <div class="h2-container">
-              <h2 data-i18n="form-title">Vamos dar vida ao seu site?</h2>
-              <p data-i18n="form-subtitle">
+            <div class="h2-container form-fade">
+              <h2 class="form-title" data-i18n="form-title">Vamos dar vida ao seu site?</h2>
+              <p class="form-subtitle" data-i18n="form-subtitle">
                 Preencha rapidinho e a gente te chama no WhatsApp!
               </p>
             </div>
@@ -821,7 +813,7 @@
                 </label>
                 <input type="tel" name="phone" id="phone" required />
               </div>
-              <button class="form-button" type="submit" data-i18n="form-button">
+              <button id="send-button" class="form-button" type="button" data-i18n="form-button">
                 Enviar
               </button>
             </form>
@@ -847,6 +839,10 @@
       </div>
       <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/js/intlTelInput.min.js"></script>
       <script src="src/js/app.js"></script>
+      <script
+        src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+        type="module"
+      ></script>
     </footer>
   </body>
 </html>

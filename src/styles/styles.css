@@ -948,6 +948,11 @@ input {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  justify-content: center;
+}
+
+.form-fade {
+  transition: opacity 0.4s ease-in-out;
 }
 
 /* FOOTER */

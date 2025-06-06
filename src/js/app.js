@@ -82,3 +82,41 @@ document.addEventListener("DOMContentLoaded", function () {
       ),
   });
 });
+
+const form = document.getElementById("contact-form");
+const sendButton = document.getElementById("send-button");
+const titleElement = document.querySelector(".form-title");
+const subtitleElement = document.querySelector(".form-subtitle");
+
+sendButton.addEventListener("click", function () {
+  sendButton.disabled = true;
+
+  fetch(form.action, {
+    method: "POST",
+    body: new FormData(form),
+    headers: {
+      Accept: "application/json",
+    },
+  }).then((response) => {
+    if (response.ok) {
+      titleElement.style.opacity = 0;
+      subtitleElement.style.opacity = 0;
+
+      form.style.display = "none";
+
+      setTimeout(() => {
+        const isPortuguese = navigator.language.toLowerCase().startsWith("pt");
+        if (isPortuguese) {
+          titleElement.textContent =
+            "Obrigado, entraremos em contato em breve!";
+        } else {
+          titleElement.textContent = "Thank you, we will be in touch soon!";
+        }
+
+        subtitleElement.style.display = "none";
+
+        titleElement.style.opacity = 1;
+      }, 400);
+    }
+  });
+});
