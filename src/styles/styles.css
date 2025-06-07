@@ -78,6 +78,12 @@
   padding: 0;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  background-color: #f8f9ff;
+}
+
 section {
   opacity: 0;
   transform: translateY(1.25rem);
@@ -88,17 +94,6 @@ section {
 section.fade-in {
   opacity: 1;
   transform: translateY(0);
-}
-
-/* section:first-of-type {
-  opacity: 1;
-  transform: translateY(0);
-} */
-
-body {
-  font-family: "Poppins", sans-serif;
-  line-height: normal;
-  background-color: #f8f9ff;
 }
 
 img {
@@ -457,7 +452,7 @@ h3 {
 .h2-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   justify-content: center;
 }
 

@@ -100,7 +100,7 @@ const i18nextResources = {
       "s6-extra2-title": "Advanced <br />animations",
       "s6-extra2-desc":
         "Highlight sections, menus, and interactions with visual effects, making your site more modern, dynamic, and engaging.",
-      "s6-extra3-title": "English<br />version",
+      "s6-extra3-title": "Translation<br />service",
       "s6-extra3-desc":
         "Speak to the world: we adapt your site to English with professional translation. Ideal for reaching a global audience.",
       "s7-title": "We are the team that will bring your site to life",
@@ -111,6 +111,12 @@ const i18nextResources = {
       "s7-team2-name": "Vitor Hugo Lopes",
       "s7-team2-role": "Developer",
       "form-placeholder-name": "Name",
+      "basic-price" : "$600",
+      "intermediate-price" : "$1500",
+      "pro-price" : "$2000",
+      "add-page" : "$100",
+      "advanced-animations" : "$50",
+      "translation-service" : "$100",
     },
   },
 };
