@@ -963,11 +963,13 @@ footer {
 }
 
 .footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
   margin: 0 auto;
   width: 100%;
   max-width: 13.75rem;
-  display: flex;
-  gap: 0.25rem;
 }
 
 .footer-logo p {
@@ -980,7 +982,7 @@ footer {
 }
 
 .footer-logo img {
-  vertical-align: baseline;
+  vertical-align: text-top;
 }
 
 .footer-logo-wrapper {
